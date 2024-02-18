@@ -14,22 +14,7 @@ body {
 .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  top: 70px;
-  left: 170.64px;
-  width: 1099.36px;
-  height: 52px;
-}
-
-.nav-bar, .nav-bar a {
-  font-size: 16px;
-}
-
-.nav-bar svg {
-  width: 62px;
-  height: 20px;
-  margin-right: 10px;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -66,18 +51,9 @@ nav a:hover {
 }
 
 .container-hero {
-  width: 1440px; 
-  height: 650px; 
-  overflow: hidden;
-  position: relative;
-}
-
-.container-hero .texto {
-  position: absolute;
-  top: 109px;
-  left: 170px;
-  width: 530px;
-  height: 422px;
+  background-color: #e6e6e6;
+  padding: 20px;
+  text-align: center;
 }
 
 .texto {
