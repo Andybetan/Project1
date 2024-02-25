@@ -26,25 +26,19 @@
 
     <!-- Section 1 -->
     <section class="container-hero">
-        <article class="texto">
-            <ul>
-                <li>
-                    <h1>Empower Your Business With Stunning Desing!</h1>
-                    <p>Circle is a digital design and developmen studio.
-                        We design and develop astonishing websites</p>
-                    <button class="bton-touch">Get in touch</button>
-                    <button class="bton-see">See our work</button>
-                </li>
-            </ul>
-        </article>
-        <br>
-        <br>
-        <br>
-        <article class="images">
+        <div class="images">
+            <h1>Empower Your Business With Stunning Desing!</h1>
+            <p id="text-hero-p">Circle is a digital design and developmen studio. We design and develop astonishing
+                websites and mobile apps.</p>
+            <button class="bton-touch">Get in touch</button>
+            <button class="bton-see">See our work</button>
+        </div>
+
+        <div class="images">
             <img class="card-one" src="../Assets/hero-section/card-1.png" alt="choose your card">
             <img class="card-two" src="../Assets/hero-section/card-2.png" alt="Project has been accepted.">
             <img class="hero-image" src="../Assets/hero-section/hero-image.png" alt="Men">
-        </article>
+        </div>
     </section>
 
     <!-- Section 2 -->
@@ -62,40 +56,42 @@
     <section class="projects">
         <h3>Recent projects</h3>
         <div class="card-projects">
-            <article>
+            <article class="card">
                 <img src="../Assets/projects-section/1.jpg" alt="">
                 <h4>Simplify</h4>
-                <p>UI Design & App Development</p>
+                <p class="p-card">UI Design & App Development</p>
                 <button>Learn more</button>
             </article>
-            <article>
+            <article class="card">
                 <img src="../Assets/projects-section/2.jpg" alt="">
                 <h4>Dashcoin</h4>
-                <p>Web Development</p>
+                <p class="p-card">Web Development</p>
                 <button>Learn more</button>
             </article>
-            <article>
+            <article class="card">
                 <img src="../Assets/projects-section/3.jpg" alt="">
                 <h4>Vectorify</h4>
-                <p>User Experience Desing</p>
+                <p class="p-card">User Experience Desing</p>
                 <button>Learn more</button>
             </article>
         </div>
     </section>
 
     <!-- Icons -->
-    <section class="Icons">
+    <section class="container-icons">
         <div>
-            <img src="../Assets/testimonial-section/memoji-1.png" alt="">
-            <img src="../Assets/testimonial-section/memoji-2.png" alt="">
-            <img src="../Assets/testimonial-section/memoji-3.png" alt="">
-            <img src="../Assets/testimonial-section/memoji-4.png" alt="">
-            <h3>Hear What Our Clients Have to Say</h3>
-            <q>Circle helped us through every stage of our startup.
+            <img class="icon1" src="../Assets/testimonial-section/memoji-1.png" alt="">
+            <img class="icon2" src="../Assets/testimonial-section/memoji-2.png" alt="">
+            <img class="icon3" src="../Assets/testimonial-section/memoji-3.png" alt="">
+            <img class="icon4" src="../Assets/testimonial-section/memoji-4.png" alt="">
+            <h3 id="h3-icons">Hear What Our Clients Have to Say</h3>
+            <q id="q-icons">Circle helped us through every stage of our startup.
                 We really enjoyed working with you</q>
-            <img src="../Assets/testimonial-section/profile.png" alt="">
-            <p>Kristin Watson</p>
-            <p>Booking.com</p>
+            <div class="clients-info-container">
+                <img id="testimonial-image" src="../Assets/testimonial-section/profile.png" alt="">
+                <p class="clients-info">Kristin Watson</p>
+                <p class="clients-info">Booking.com</p>
+            </div>
         </div>
     </section>
 

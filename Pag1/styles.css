@@ -58,27 +58,56 @@ nav a:hover {
 
 /* -------------------Container Hero--------------------- */
 .container-hero {
-
+  width: 80%;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container-hero .texto {
+
+h1 {
+  font-size: 70px;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.images {
+  position: relative;
+  width: 40%;
+
+
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+}
+
+.card-one {
   position: absolute;
-  top: 109px;
-  left: 170px;
-  width: 530px;
-  height: 422px;
+  top: 20px;
+  left: -70px;
+  width: 60%;
+  height: auto;
 }
 
-.texto {
-  max-width: 600px;
-  margin: 0 auto;
+.card-two {
+  position: absolute;
+  bottom: -130px;
+  right: -85px;
+  width: 60%;
+  height: auto;
 }
 
-.texto p {
-  margin-bottom: 15px;
+#text-hero-p {
   color: #6B708D;
+  font-size: xx-large;
+  margin-bottom: 50px;
 }
 
 .bton-touch,
@@ -98,88 +127,91 @@ nav a:hover {
   color: #6B708D;
 }
 
-.card-one,
-.card-two {
-  width: 170px;
-  height: auto;
-  top: 25px;
-}
-
-.card-one {
-  left: 700px;
-}
-
-.card-two {
-  left: 1040px;
-}
-
 /* -------------------Container logo--------------------- */
 .container-logo {
-  background-color: #CCD0E8;
-  padding: 20px;
-  text-align: center;
   width: 80%;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
+}
+
+.logos {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logos img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  margin: 70px;
   filter: grayscale(100%);
 }
 
+
+.logos img:not(:last-child) {
+  margin-right: 20px;
+}
+
+
+
 /* ------------------- Recent projects------------------- */
 .projects {
+  width: 80%;
+}
+
+.card-projects {
   width: 100%;
-  height: 444px;
-  margin: 20px auto;
-  padding: 40px 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: 340px;
 }
 
 .projects h3 {
-  color: #072AC8;
+  color: #292E47;
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-.projects .card-projects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .projects img {
-  width: 340px;
+  width: 100%;
   height: 240px;
   object-fit: cover;
+  margin-right: 20px;
 
 }
 
 .projects h4 {
   font-size: 20px;
   margin: 10px 0;
+  padding: 10px 20px;
+
 }
 
-.projects p {
+.p-card {
+  padding: 10px 20px;
   color: #6B708D;
-  margin: 10px 0 20px;
 }
+
+
 
 .projects button {
-  background-color: #072AC8;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #072AC8;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+
 }
 
 .projects button:hover {
@@ -198,18 +230,91 @@ nav a:hover {
   left: 740px;
 }
 
-/* ------------------- Hear Waht --------------------------- */
+/* ------------------- Icons --------------------------- */
+
+.container-icons {
+  width: 90%;
+  margin: 100px auto;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(../Assets/testimonial-section/orbit.png);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-color: #292E47;
+  padding: 20px; 
+  position: relative;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.icon2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.icon3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.icon4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
 
 
+#h3-icons {
+  color: #F4F6FC;
+  font-size: 40px;
+  margin-top: 200px;
+}
 
+#q-icons {
+  color: #FFC600;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
 
+.clients-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px; 
+}
 
+#testimonial-image {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px; 
+}
 
-
-
-
-
-
+.clients-info {
+  color: #A2D6F9;
+  font-size: 18px;
+}
 
 
 
