@@ -16,9 +16,9 @@
                 <image href="../Assets/logos/circle.svg" width="100%" height="100%" />
             </svg>
             <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Services</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
             </ul>
             <button id="contact-btn">Contact us</button>
         </nav>
@@ -30,8 +30,10 @@
             <h1>Empower Your Business With Stunning Desing!</h1>
             <p id="text-hero-p">Circle is a digital design and developmen studio. We design and develop astonishing
                 websites and mobile apps.</p>
-            <button class="bton-touch">Get in touch</button>
-            <button class="bton-see">See our work</button>
+            <div class="button-container">
+                <button class="bton-touch">Get in touch</button>
+                <button class="bton-see">See our work</button>
+            </div>
         </div>
 
         <div class="images">
@@ -53,86 +55,154 @@
     </section>
 
     <!-- Projects -->
-    <section class="projects">
-        <h3>Recent projects</h3>
+    <section id="projects">
+        <h3 class="projects-h3">Recent projects</h3>
         <div class="card-projects">
             <article class="card">
-                <img src="../Assets/projects-section/1.jpg" alt="">
-                <h4>Simplify</h4>
-                <p class="p-card">UI Design & App Development</p>
-                <button>Learn more</button>
+                <div class="imagen-cards" id="imagen-card1">
+                </div>
+                <div>
+                    <h4 class="projects-h4">Simplify</h4>
+                    <p class="p-card">UI Design & App Development</p>
+                    <button class="buttom-projects">Learn more</button>
+                </div>
             </article>
+
             <article class="card">
-                <img src="../Assets/projects-section/2.jpg" alt="">
-                <h4>Dashcoin</h4>
-                <p class="p-card">Web Development</p>
-                <button>Learn more</button>
+                <div class="imagen-cards" id="imagen-card2">
+                </div>
+                <div>
+                    <h4 class="projects-h4">Dashcoin</h4>
+                    <p class="p-card">Web Development</p>
+                    <button class="buttom-projects">Learn more</button>
+                </div>
             </article>
+
             <article class="card">
-                <img src="../Assets/projects-section/3.jpg" alt="">
-                <h4>Vectorify</h4>
-                <p class="p-card">User Experience Desing</p>
-                <button>Learn more</button>
+                <div class="imagen-cards" id="imagen-card3">
+                </div>
+                <div>
+                    <h4 class="projects-h4">Vectorify</h4>
+                    <p class="p-card">User Experience Desing</p>
+                    <button class="buttom-projects">Learn more</button>
+                </div>
             </article>
         </div>
     </section>
 
     <!-- Icons -->
     <section class="container-icons">
-        <div>
             <img class="icon1" src="../Assets/testimonial-section/memoji-1.png" alt="">
             <img class="icon2" src="../Assets/testimonial-section/memoji-2.png" alt="">
             <img class="icon3" src="../Assets/testimonial-section/memoji-3.png" alt="">
             <img class="icon4" src="../Assets/testimonial-section/memoji-4.png" alt="">
-            <h3 id="h3-icons">Hear What Our Clients Have to Say</h3>
-            <q id="q-icons">Circle helped us through every stage of our startup.
-                We really enjoyed working with you</q>
+
+            <div class="q-icons-container">
+                <h3 id="h3-icons">Hear What Our Clients Have to Say</h3>
+
+                <q id="q-icons">Circle helped us through every stage of our startup.
+                    We really enjoyed working with you</q>
+            </div>
+           
             <div class="clients-info-container">
                 <img id="testimonial-image" src="../Assets/testimonial-section/profile.png" alt="">
-                <p class="clients-info">Kristin Watson</p>
-                <p class="clients-info">Booking.com</p>
+                <div class="clients-info-texto">
+                    <p class="clients-info">Kristin Watson</p>
+                    <p class="clients-info">Booking.com</p>    
+                </div>
+                
             </div>
-        </div>
+ 
     </section>
 
     <!-- Services -->
-    <section class="Services">
-        <h3>Our Services</h3>
-        <div>
-            <article>
-                <img src="../Assets/services-section/icons/1.svg" alt="">
-                <h4>User interface Desing</h4>
-                <p>Circle provides you with a stunning user interface desing that is accessible to everyone.</p>
-                <button>Lern more</button>
+    <section id="services">
+        <h3 class="services-h3">Our Services</h3>
+        <div class="cards-services">
+            <article class="card-services">
+                <img class="images-services" src="../Assets/services-section/icons/1.svg" alt="">
+                <h4 class="services-h4">User interface Desing</h4>
+                <p class="text-services">Circle provides you with a stunning user interface desing that is accessible to
+                    everyone.</p>
+                <button class="services-bottom">Lern more</button>
             </article>
-            <article>
-                <img src="../Assets/services-section/icons/2.svg" alt="">
-                <h4>User Experience Desing</h4>
-                <p>Circle always focuses on delivering the best user experience to your customers.</p>
-                <button>Lern more</button>
+            <article class="card-services">
+                <img class="images-services" src="../Assets/services-section/icons/2.svg" alt="">
+                <h4 class="services-h4">User Experience Desing</h4>
+                <p class="text-services">Circle always focuses on delivering the best user experience to your customers.
+                </p>
+                <button class="services-bottom">Lern more</button>
             </article>
-            <article>
-                <img src="../Assets/services-section/icons/3.svg" alt="">
-                <h4>Application Development</h4>
-                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-                <button>Lern more</button>
+            <article class="card-services">
+                <img class="images-services" src="../Assets/services-section/icons/3.svg" alt="">
+                <h4 class="services-h4">Application Development</h4>
+                <p class="text-services">We develop high-quality mobile and web applications using the latest technology
+                    stack.</p>
+                <button class="services-bottom">Learn more</button>
             </article>
         </div>
     </section>
 
     <!-- Subscribe Form -->
     <div class="subscribe-container">
-        <h3>Do you have any questions?</h3>
-        <p>Let us help you!</p>
+        <h3 class="form-h3">Do you have any questions?</h3>
+        <p class="text-form">Let us help you!</p>
         <form action="#" method="post" id="subscribe-form">
             <div class="email-container">
                 <img src="../Assets/newsletter/icon/mail.svg" alt="Email Icon" class="email-icon">
                 <input type="email" id="email" name="email" required placeholder="Enter your email">
             </div>
-            <button type="submit">Subscribe</button>
+            <button class="form-bottom">Subscribe</button>
         </form>
     </div>
-
 </body>
+<!------------ footer ------------>
+<footer class="footer">
+    <nav id="nav">
+        <div class="image-address-nav">
+            <svg width="62" height="20" viewBox="0 0 62 20" fill="none" stroke="black">
+                <image href="../Assets/logos/circle.svg" width="100%" height="100%" />
+            </svg>
+            <div>
+                <p id="address">2972 Westheirmer Rd. Santana Ana,</p>
+                <p id="address">Illinois 85486</p>
+            </div>
+        </div>
+
+        <div class="text-nav-footer">
+
+            <div class="li-nav-footer">
+                <p id="address">Team</p>
+                <p id="address">Press</p>
+            </div>
+
+            <div class="li-nav-footer">
+                <p id="address">Services</p>
+                <p id="address">Projects</p>
+            </div>
+
+            <div class="li-nav-footer">
+                <p id="address">About Us</p>
+                <p id="address">Privacy Policy</p>
+            </div>
+
+
+
+        </div>
+
+        <!-- <div class="text-nav-footer">
+            <ul class="li-nav-footer">
+                <li>Team</li>
+                <li>Services</li>
+                <li>About Us</li>
+            </ul>
+            <ul class="li-nav-footer">
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div> -->
+    </nav>
+</footer>
 
 </html>
