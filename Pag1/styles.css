@@ -66,7 +66,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #FFC600; */
+ 
 }
 
 
@@ -143,7 +143,7 @@ img {
   width: 80%;
   margin-top: 100px;
   margin-bottom: 100px;
-/* background-color:#FFC600 */
+
 }
 
 .logos {
@@ -192,13 +192,16 @@ img {
 .card {
   background-color: #FFFFFF;
   width: 340px;
-
+  border-radius: 10xp;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .imagen-cards {
   height: 240px;
   background-size: cover;
   background-position: center;
+
+  
 }
 
 #imagen-card1{
@@ -227,6 +230,7 @@ img {
 }
 
 .p-card {
+  font-size: 18;
   margin-top: 20px;
   padding: 10px 20px;
   color: #6B708D;
@@ -382,6 +386,8 @@ img {
   width: 340px;
   height: 444px;
   margin-right: 20px;
+  border-radius: 10xp;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .images-services {
@@ -396,17 +402,19 @@ img {
 
 .services-h3 {
   color: #292E47;
-  font-size: 22px;
+  font-size: 28px;
   margin-bottom: 50px;
 }
 
 .services-h4 {
+  font-size: 20px;
   margin: 10px 0;
   padding: 10px 20px;
 
 }
 
 .text-services {
+  font-size: 18px;
   padding: 10px 20px;
   color: #6B708D;
   margin-top: 20px;
@@ -439,14 +447,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 150px;
+  font-size: 28px;
 }
 
 .text-form {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10px;
 
 }
 
@@ -461,7 +470,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 
