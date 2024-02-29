@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    background-color: #CCD0E8;
+    background-color: #F4F6FC;
 }
 
 /* ------------------- Header---------------------------- */
@@ -32,6 +32,7 @@ body {
 .nav-bar,
 .nav-bar a {
     font-size: 1vw;
+    text-decoration: none !important;
 }
 
 nav ul {
