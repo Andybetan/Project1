@@ -59,6 +59,10 @@ nav a:hover {
   cursor: pointer;
 }
 
+#contact-btn-ref{
+  color: #FFFFFF;
+}
+
 /* -------------------form---------------------------- */
 
 .contact-section {

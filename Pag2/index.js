@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const cardImages = document.querySelectorAll('.imagen-cards-o img');
 
     cardImages.forEach(image => {
-        // Añadimos el estilo inicial con la transición
+        
         image.style.transition = 'transform 0.5s ease';
 
         image.addEventListener('mouseenter', function () {
@@ -40,13 +40,5 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => {
             aviso.style.display = 'none';
         }, 5000);
-    });
-
-    document.getElementById('contact-btn').addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.getElementById('subscribe-form').scrollIntoView({
-            behavior: 'smooth'
-        });
     });
 });

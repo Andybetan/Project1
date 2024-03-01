@@ -259,7 +259,10 @@ img {
   cursor: pointer;
 
 }
+.btn-projects-ref {
+  text-decoration: none;
 
+}
 /* ------------------- Icons --------------------------- */
 
 .container-icons {
@@ -411,8 +414,21 @@ img {
   margin: 40px 30px 30px;
   background-color: #ECF7FF;
   object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+#images-services-1{
+  background-image: url(/Assets/services-section/icons/1.svg);
+}
+
+#images-services-2{
+  background-image: url(/Assets/services-section/icons/2.svg);
+}
+
+#images-services-3{
+  background-image: url(/Assets/services-section/icons/3.svg);
+}
 
 .services-h3 {
   color: #292E47;

@@ -59,7 +59,9 @@ nav a:hover {
   font-size: 1vw;
   cursor: pointer;
 }
-
+#contact-btn-ref{
+  color: #FFFFFF;
+}
 /* ----------section simplify----------*/
 
 .container-simplify {

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // ... (código existente)
+    
 
     // Nueva función para manejar el clic en el botón de contacto
     function handleContactButtonClick() {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Llama a la función para manejar el clic en el botón de contacto
     handleContactButtonClick();
 
-    // Resto del código existente
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
