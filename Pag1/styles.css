@@ -51,12 +51,16 @@ nav a:hover {
 
 #contact-btn {
   background-color: #072AC8;
-  color: #fff;
+  color: #FFFFFF;
   padding: 10px 20px;
   border: none;
   border-radius: 0px;
   font-size: 1vw;
   cursor: pointer;
+}
+
+#contact-btn-ref{
+  color: #FFFFFF;
 }
 
 /* -------------------Container Hero--------------------- */
@@ -121,6 +125,7 @@ img {
 .button-container {
   display: flex;
   gap: 20px;
+  
 }
 
 .bton-touch,
@@ -133,12 +138,13 @@ img {
   font-size: 1vw;
   cursor: pointer;
   margin-right: 3vw;
+  
 }
 
 .bton-see {
   background-color: #F4F6FC;
   color: #6B708D;
-  ;
+  
 }
 
 /* -------------------Container logo--------------------- */
@@ -384,7 +390,7 @@ img {
 
   .cards-services {
     flex-direction: column;
-    gap: auto;
+    gap: 50px;
 
   }
 }
@@ -507,6 +513,23 @@ img {
   border-radius: 0px;
   font-size: 16px;
   cursor: pointer;
+}
+
+#aviso-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #072AC8; 
+  color: #FFC600; 
+  padding: 15px;
+  text-align: center;
+  display: none;
+  z-index: 1000;
+}
+
+#error-aviso-container {
+  background-color: #f19d97; 
 }
 
 /* ---------------------------- Navbar Footer---------------------- */

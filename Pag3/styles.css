@@ -119,6 +119,23 @@ form label {
   cursor: pointer;
 }
 
+#aviso-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFC600; 
+  color: #072AC8; 
+  padding: 15px;
+  text-align: center;
+  display: none;
+  z-index: 1000;
+}
+
+#error-aviso-container {
+  background-color: #f19d97; 
+}
+
 /* ---------------------------- Navbar Footer---------------------- */
 
 .footer {

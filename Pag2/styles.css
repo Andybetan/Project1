@@ -28,7 +28,7 @@ body {
   margin: 0 auto;
 
 }
-
+f 
 .nav-bar,
 .nav-bar a {
   font-size: 1vw;
@@ -107,49 +107,40 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-@media (width<1400px) {
-
+@media (max-width: 1400px) {
   .card-other {
     flex-direction: column;
     gap: 50px;
-
   }
-
 }
 
 .cards-other-projects {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 340px;
-  border-radius: 10xp;
+  border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .imagen-cards-o {
   height: 240px;
-  background-size: cover;
-  background-position: center;
-
-
+  position: relative;
+  overflow: hidden;
 }
 
-#imagen-cards1 {
-  background-image: url(../Assets/projects-section/4.jpg);
+.imagen-cards-o img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
 }
 
-#imagen-cards2 {
-  background-image: url(../Assets/projects-section/5.jpg);
+.imagen-cards-o:hover img {
+  transform: rotate(360deg);
 }
-
-#imagen-cards3 {
-  background-image: url(../Assets/projects-section/6.jpg);
-}
-
 
 .other-projects-h3 {
-  color: #292E47;
+  color: #292e47;
   font-size: 28px;
   margin-bottom: 50px;
 }
@@ -158,27 +149,23 @@ nav a:hover {
   font-size: 20px;
   margin: 10px 0;
   padding: 10px 20px;
-
 }
 
 .p-cards {
-  font-size: 18;
+  font-size: 18px;
   margin-top: 20px;
   padding: 10px 20px;
-  color: #6B708D;
+  color: #6b708d;
 }
 
-
-
 .buttom-projects2 {
-  background-color: #FFFFFF;
-  color: #072AC8;
+  background-color: #ffffff;
+  color: #072ac8;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 /* ------------------- Clients section form------------------- */
@@ -246,6 +233,23 @@ nav a:hover {
   border-radius: 0px;
   font-size: 16px;
   cursor: pointer;
+}
+
+#aviso-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #072AC8; 
+  color: #FFC600; 
+  padding: 15px;
+  text-align: center;
+  display: none;
+  z-index: 1000;
+}
+
+#error-aviso-container {
+  background-color: #f19d97; 
 }
 
 /* ---------------------------- Navbar Footer---------------------- */
